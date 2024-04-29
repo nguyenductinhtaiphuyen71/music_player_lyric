@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>test</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- <div>
+            <h2 data-text="Creative">Creative</h2>
+        </div> -->
+        <div class="lyric"></div>
+        <canvas id="audioLyric" width="800" height="200"></canvas>
+        <div class="player">
+            <div class="img-area">
+                <img src="assets/loaCapture.PNG" alt="">
+            </div>
+            <div class="song-details">
+                <h1 class="name">Animation</h1>
+                <h3 class="artist">Coding</h3>
+            </div>
+            <div class="audioC">
+                <div class="song-timer">
+                    <span class="current-time">0:00</span>
+                    <span class="max-duration">0:00</span>
+                </div>
+                <div class="progress-area">
+                    <div class="progress-bar">
+                        <audio src="assets/music.mp3" id="main-audio"></audio>
+                    </div>
+                </div>
+            </div>
+            <div class="controls">
+                <button class="btnC" id="prev">
+                    <img class="img-prev" src="assets/icons/back.png" alt="">
+                </button>
+                <button class="play-pause btnC">
+                    <img class="img-play-pause" src="assets/icons/play.png" alt="">
+                </button>
+                <button class="btnC" id="next">
+                    <img class="img-next" src="assets/icons/next.png" alt="">
+                </button>
+            </div>
+        </div>  
+    </div>
+    <script src="test.js"></script>
+</body>
+</html>
